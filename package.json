@@ -1,0 +1,13 @@
+{
+  "name": "auto-ovpn-config",
+  "version": "1.0.0",
+  "description": "script for automating the preparation of openvpn user configs",
+  "main": "index.js",
+  "keywords": [
+    "js",
+    "openvpn"
+  ],
+  "repository": "githab:landik/auto-ovpn-config.git",
+  "author": "Roman Landik <roman.landik@gmail.com>",
+  "license": "MIT"
+}
