@@ -74,12 +74,14 @@ function readKey(file) {
     const begins = [
         '-----BEGIN OpenVPN Static key V1-----',
         '-----BEGIN CERTIFICATE-----',
-        '-----BEGIN PRIVATE KEY-----'
+        '-----BEGIN PRIVATE KEY-----',
+        '-----BEGIN ENCRYPTED PRIVATE KEY-----'
     ];
     const ends = [
         '-----END OpenVPN Static key V1-----',
         '-----END CERTIFICATE-----',
-        '-----END PRIVATE KEY-----'
+        '-----END PRIVATE KEY-----',
+        '-----END ENCRYPTED PRIVATE KEY-----'
     ];
     const array = file.trim().split("\n");
     array.forEach(line=>{
